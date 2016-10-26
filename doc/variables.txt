@@ -1,6 +1,7 @@
 
 Target variable (genre):
 
+jazz
 blues
 country
 classical
