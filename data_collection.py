@@ -2,7 +2,7 @@ import spotipy
 import spotipy.util as util
 import csv
 
-NUM_TRACKS = 100
+NUM_TRACKS = 5
 GENRES = ['jazz','blues','country','classical','french','alternative','rock','pop','electro','r-n-b','hip-hop','soul','techno','hard-rock','reggae','folk','indie','punk','heavy-metal','psych-rock',]
 
 SPOTIPY_CLIENT_ID='f380296eefe34641ba6601f235f24c85'
@@ -22,49 +22,36 @@ def writeToCSV(tracks):
 		writer.writeheader()
 		writer.writerows(tracks)
 
-def  collectTracks():
+def collectTracks():
+	tracks = []
 	for genre in GENRES:
 		unprocessedTracks = sp.recommendations(seed_genres=genre, limit=NUM_TRACKS)
+		for i in range(NUM_TRACKS):
+			tracks.append(buildTrack(unprocessedTracks['tracks'][i], genre))
+	return tracks
 
-def buildTracks()
-
-track_inf = sp.recommendations(seed_genres=GENRE, limit=2)
-print(track_inf['tracks'][0])
-artist = track_inf['tracks'][0]['artists'][0]['name']
-track = track_inf['tracks'][0]['name']
-track_id = track_inf['tracks'][0]['id']
-#print(artist)
-#print(track)
-print(artist + ' - ' + track)
-
-print(track_id)
-features = sp.audio_features([track_id])[0]
-print(features)
-	
-#	print(track2)
-
-
-track_inf = sp.recommendations(seed_genres='jazz', limit=NUM_TRACKS)
-tracks = []
-
-for i in range(NUM_TRACKS):
-	track_id = track_inf['tracks'][i]['id']
+def buildTrack(unprocessedTrack, genre):
+	processedTrack = {}
+	track_id = unprocessedTrack['id']
 	features = sp.audio_features([track_id])[0]
-	tracks.append({})
-	tracks[i]['artist'] = track_inf['tracks'][i]['artists'][0]['name']
-	tracks[i]['track'] = track_inf['tracks'][i]['name']
-	tracks[i]['danceability'] = features['danceability']
-	tracks[i]['energy'] = features['energy']
-	tracks[i]['key'] = features['key']
-	tracks[i]['loudness'] = features['loudness']
-	tracks[i]['speechiness'] = features['speechiness']
-	tracks[i]['acousticness'] = features['acousticness']
-	tracks[i]['instrumentalness'] = features['instrumentalness']
-	tracks[i]['liveness'] = features['liveness']
-	tracks[i]['valence'] = features['valence']
-	tracks[i]['tempo'] = features['tempo']
-	tracks[i]['duration_ms'] = features['duration_ms']
-	tracks[i]['time_signature'] = features['time_signature']
-	tracks[i]['genre'] = GENRE
+	processedTrack['artist'] = unprocessedTrack['artists'][0]['name']
+	processedTrack['track'] = unprocessedTrack['name']
+	processedTrack['danceability'] = features['danceability']
+	processedTrack['energy'] = features['energy']
+	processedTrack['key'] = features['key']
+	processedTrack['loudness'] = features['loudness']
+	processedTrack['speechiness'] = features['speechiness']
+	processedTrack['acousticness'] = features['acousticness']
+	processedTrack['instrumentalness'] = features['instrumentalness']
+	processedTrack['liveness'] = features['liveness']
+	processedTrack['valence'] = features['valence']
+	processedTrack['tempo'] = features['tempo']
+	processedTrack['duration_ms'] = features['duration_ms']
+	processedTrack['time_signature'] = features['time_signature']
+	processedTrack['genre'] = genre
+
+	return processedTrack
+
+writeToCSV(collectTracks())
 
 
