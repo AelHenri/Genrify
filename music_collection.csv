@@ -1,1 +1,11 @@
-artist,track,danceability,energy,key,loudness,speechiness,acousticness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature,genre
+valence,tempo,key,danceability,energy,genre,speechiness,loudness,time_signature,instrumentalness,artist,track,acousticness,liveness,duration_ms
+0.232,107.894,5,0.388,0.327,jazz,0.0317,-12.522,3,0.00103,Louis Armstrong,What A Wonderful World,0.732,0.15,140333
+0.203,103.964,0,0.503,0.203,jazz,0.0327,-12.951,4,0.000821,Diana Krall,California Dreamin',0.611,0.106,197147
+0.579,134.77,8,0.506,0.493,jazz,0.0427,-7.759,4,0.00355,John Coltrane,Blue Train - 2003 - Remaster,0.798,0.307,644013
+0.511,129.83,8,0.711,0.551,jazz,0.0578,-7.058,4,5.43e-05,Joe Stilgoe,Totally,0.743,0.264,182933
+0.654,118.5,5,0.466,0.395,jazz,0.0432,-18.022,4,0.00531,J.J. Johnson,Blue Trombone,0.442,0.278,548240
+0.462,103.958,5,0.317,0.732,jazz,0.0679,-7.146,3,3.56e-05,Kamasi Washington,Malcolm's Theme,0.269,0.0745,520500
+0.559,140.695,11,0.483,0.617,jazz,0.0284,-9.488,4,0.889,Soulive,Day Tripper,0.024,0.262,185827
+0.309,70.217,3,0.483,0.196,jazz,0.0285,-12.775,4,1e-06,Annie Lennox,I Cover The Waterfront,0.822,0.127,179866
+0.285,75.844,5,0.329,0.0317,jazz,0.0441,-21.514,4,0.939,Gerry Mulligan,My Funny Valentine,0.972,0.147,246067
+0.145,107.949,3,0.511,0.00211,jazz,0.195,-24.812,5,0.982,Keith Jarrett,Interlude No. 3,0.993,0.113,77533
