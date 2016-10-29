@@ -2,20 +2,21 @@ import spotipy
 import spotipy.util as util
 import csv
 
-NUM_TRACKS = 100
-GENRES = ['jazz','blues','country','classical','french','alternative','rock','pop','electro','r-n-b','hip-hop','soul','techno','hard-rock','reggae','folk','indie','punk','heavy-metal','psych-rock',]
+NUM_TRACKS = 10
+GENRES = ['jazz','blues','country','classical','french','alternative','rock','pop','electro','r-n-b','hip-hop','soul','techno','hard-rock','reggae','folk','indie','punk','heavy-metal','psych-rock']
 
-SPOTIPY_CLIENT_ID='f380296eefe34641ba6601f235f24c85'
-SPOTIPY_CLIENT_SECRET='c13a31dcc76f43c792f6b7cd266450c2'
+SPOTIPY_CLIENT_ID='09545564279049d6a48a476ee8a2163f'
+SPOTIPY_CLIENT_SECRET='5941931004de4fd6ba6daf7deb81be6b'
 SPOTIPY_REDIRECT_URI='http://localhost:8888/callback'
-username = 'Alkinn'
+username = 'benoit.lafon'
 scope = 'user-library-read'
 
 token = util.prompt_for_user_token(username, scope, SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET, SPOTIPY_REDIRECT_URI)
 sp = spotipy.Spotify(auth=token)
 
 def writeToCSV(tracks):
-	keys = tracks[0].keys()
+#	keys = tracks[0].keys()
+	keys =['artist', 'track', 'acousticness', 'danceability', 'duration_ms', 'energy', 'instrumentalness', 'key', 'liveness', 'loudness', 'speechiness', 'tempo', 'time_signature', 'valence', 'genre']
 	with open('music_collection.csv', 'w') as csvfile:
 		writer = csv.DictWriter(csvfile, keys)
 	
