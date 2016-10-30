@@ -17,7 +17,6 @@ token = util.prompt_for_user_token(username, scope, SPOTIPY_CLIENT_ID, SPOTIPY_C
 sp = spotipy.Spotify(auth=token)
 
 def writeToCSV(tracks):
-	keys = tracks[0].keys()
 	with open('music_collection.csv', 'w') as csvfile:
 		writer = csv.DictWriter(csvfile, fieldnames = COLUMNS+GENRES)
 	
