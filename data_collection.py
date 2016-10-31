@@ -3,7 +3,7 @@ import spotipy.util as util
 import csv
 import time
 
-NUM_TRACKS = 5
+NUM_TRACKS = 100
 GENRES = ['alternative','blues','classical','country','electro','folk','french','hard-rock','heavy-metal','hip-hop','indie','jazz','pop','psych-rock','punk-rock','r-n-b','reggae','rock','soul','techno']
 COLUMNS = ['artist', 'track', 'acousticness', 'danceability', 'duration_ms', 'energy', 'instrumentalness', 'key', 'liveness', 'loudness', 'speechiness', 'tempo', 'time_signature', 'valence', 'genre']
 
