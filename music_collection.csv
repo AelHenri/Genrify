@@ -1,0 +1,101 @@
+artist,track,acousticness,danceability,duration_ms,energy,instrumentalness,key,liveness,loudness,speechiness,tempo,time_signature,valence,genre
+Bill Evans,Skating In Central Park - Digitally Remastered,0.993,0.478,324200,0.0294,0.948,0,0.105,-25.319,0.0453,124.307,3,0.161,jazz
+Jimmy Smith,Midnight Special - 2007 Digital Remaster,0.814,0.704,597280,0.277,0.756,0,0.0845,-11.675,0.035,90.38,4,0.321,jazz
+Snarky Puppy,Atchafalaya,0.152,0.427,364387,0.672,0.912,10,0.689,-10.518,0.321,205.074,4,0.631,jazz
+Sun Ra,Nuclear War,0.757,0.604,463913,0.395,0,10,0.234,-13.536,0.146,85.856,4,0.357,jazz
+Miles Davis,Stella By Starlight,0.912,0.485,284560,0.144,0.000114,10,0.0965,-12.824,0.0362,86.143,4,0.23,jazz
+Percy Sledge,When A Man Loves A Woman,0.246,0.407,176133,0.272,9.94e-05,1,0.295,-13.394,0.025,95.379,3,0.171,blues
+The Allman Brothers Band,Midnight Rider,0.353,0.412,178493,0.49,0.0552,7,0.224,-13.172,0.0332,189.346,4,0.674,blues
+Curtis Mayfield,Move On Up - Extended Version,0.141,0.584,535333,0.975,0.501,11,0.101,-6.534,0.0651,138.341,4,0.867,blues
+The Drifters,Under The Boardwalk - Re-Recording,0.506,0.646,155800,0.702,0,5,0.0388,-4.818,0.0427,127.114,4,0.708,blues
+Marlena Shaw,California Soul,0.557,0.518,177293,0.828,5.92e-05,6,0.323,-8.324,0.0555,94.466,4,0.603,blues
+Frankie Ballard,Sunshine & Whiskey,0.223,0.67,182400,0.737,0,9,0.325,-6.794,0.0434,92.983,4,0.738,country
+Brad Paisley,Perfect Storm,0.365,0.53,234840,0.753,4.19e-05,0,0.269,-5.551,0.0346,123.979,4,0.391,country
+Luke Bryan,Roller Coaster,0.0353,0.601,259080,0.776,4.23e-05,8,0.184,-4.452,0.037,108.007,4,0.277,country
+Blake Shelton,Neon Light,0.0189,0.666,221402,0.78,1.01e-06,2,0.0635,-5.847,0.048,154.056,4,0.918,country
+Shania Twain,You're Still The One,0.381,0.582,212200,0.493,0,3,0.0908,-8.748,0.0379,133.78,4,0.619,country
+Maryliz Smith,"Canto Primo from Suite for Solo Cello No. 1, Op. 72",0.916,0.172,143701,0.012,0.278,7,0.108,-26.567,0.0506,116.526,3,0.0383,classical
+Antonín Dvořák,"Cello Concerto In B Minor, Op.104, B.191: 3. Finale (Allegro moderato)",0.947,0.277,738667,0.196,0.883,11,0.0711,-18.047,0.0447,115.331,4,0.124,classical
+Ludwig van Beethoven,"Symphony No.9 in D minor, Op.125 - ""Choral"": 2. Molto vivace",0.981,0.349,856053,0.268,0.882,2,0.0817,-17.238,0.0588,82.297,4,0.391,classical
+Antonio Vivaldi,"Flute Concerto in D Major, Op. 10, No. 3, RV 428, ""Il gardellino"": II. Cantabile",0.952,0.267,184000,0.0234,0.425,2,0.0633,-28.323,0.0533,174.503,5,0.523,classical
+William Walton,Touch her Soft Lips and Part from Henry V (1944),0.761,0.114,238907,0.116,0.154,11,0.18,-23.2,0.0402,92.748,4,0.0677,classical
+Yann Tiersen,La valse d'Amélie - Version originale,0.713,0.433,135907,0.564,0.275,9,0.117,-8.917,0.0405,192.073,3,0.867,french
+Carla Bruni,L'amoureuse,0.37,0.543,184253,0.567,2.81e-06,7,0.141,-8.416,0.0355,91.508,4,0.613,french
+Indila,Dernière danse,0.183,0.658,212917,0.457,0,0,0.0895,-7.627,0.0592,114.914,4,0.262,french
+Youssoupha,On se connaît,0.185,0.839,273709,0.805,0,9,0.0547,-6.128,0.111,96.021,4,0.712,french
+Serge Gainsbourg,69 année érotique,0.0112,0.552,197773,0.411,0.316,7,0.128,-11.15,0.0304,120.748,4,0.799,french
+Red Hot Chili Peppers,Californication,0.0021,0.592,329733,0.767,0.00165,9,0.127,-2.788,0.027,96.483,4,0.317,alternative
+Radiohead,Paranoid Android,0.0342,0.328,383507,0.762,0.00876,5,0.198,-8.651,0.0476,125.75,4,0.262,alternative
+Yeah Yeah Yeahs,Heads Will Roll,0.00025,0.56,221000,0.901,0.134,8,0.299,-4.481,0.032,132.009,4,0.801,alternative
+The Ting Tings,Hands,0.026,0.776,199787,0.881,9.05e-06,7,0.133,-3.764,0.0294,129.95,4,0.811,alternative
+Gorillaz,Feel Good Inc,0.00836,0.818,222640,0.705,0.00233,6,0.613,-6.679,0.177,138.559,4,0.772,alternative
+Edward Sharpe & The Magnetic Zeros,Home,0.292,0.542,303200,0.589,0.000522,2,0.177,-6.623,0.0318,111.665,4,0.139,rock
+Aerosmith,I Don't Want to Miss a Thing,0.165,0.383,298760,0.662,0,2,0.248,-5.162,0.0333,121.154,4,0.14,rock
+The Black Keys,Gotta Get Away,0.0175,0.475,180173,0.836,0,4,0.104,-5.446,0.0529,123.144,4,0.716,rock
+Queen,Bohemian Rhapsody,0.273,0.395,354320,0.407,0,0,0.212,-9.91,0.0545,143.456,4,0.249,rock
+Linkin Park,Numb,0.00366,0.493,186240,0.856,0,6,0.628,-4.134,0.0384,110.097,4,0.218,rock
+Miley Cyrus,We Can't Stop,0.00882,0.613,231240,0.622,0,1,0.37,-5.794,0.0334,80.003,4,0.472,pop
+Coldplay,A Sky Full of Stars,0.00622,0.545,267867,0.675,0.00197,6,0.214,-6.468,0.0279,124.973,4,0.167,pop
+The Black Eyed Peas,I Gotta Feeling - Printz Board vs [[[zuper blahq]]],0.0101,0.92,304480,0.641,0.168,11,0.673,-4.415,0.176,127.994,4,0.457,pop
+Jeremih,Don't Tell 'Em,0.527,0.859,268453,0.538,1.14e-06,2,0.137,-5.207,0.0699,98.031,4,0.344,pop
+Jessie Ware,Say You Love Me,0.123,0.456,257484,0.415,2.53e-05,7,0.197,-8.919,0.048,174.043,3,0.259,pop
+Haddaway,What Is Love,0.0234,0.688,269456,0.77,0.00783,7,0.076,-7.962,0.0312,123.868,4,0.76,electro
+ZHU,Faded,0.00843,0.867,223480,0.477,0.175,9,0.113,-7.183,0.049,124.979,4,0.612,electro
+Justice,D.A.N.C.E,0.506,0.24,164293,0.893,0.919,6,0.404,-5.088,0.0737,106.621,4,0.0757,electro
+Martin Garrix,Animals,0.00181,0.675,303827,0.866,0.746,1,0.415,-6.454,0.039,128.007,4,0.0379,electro
+The Chemical Brothers,Galvanize,0.0279,0.765,268800,0.674,0.0136,7,0.0951,-4.165,0.086,104.008,4,0.338,electro
+Taio Cruz,Dynamite,0.00622,0.75,203867,0.78,0,4,0.0263,-3.155,0.0898,119.985,4,0.819,r-n-b
+"Earth, Wind & Fire",September,0.121,0.694,214867,0.73,0.000555,9,0.146,-10.439,0.0309,125.962,4,0.981,r-n-b
+Chaka Khan,Ain't Nobody,0.00095,0.547,319332,0.93,0.000231,1,0.994,-6.349,0.144,98.911,4,0.449,r-n-b
+Justin Timberlake,Cry Me a River,0.575,0.624,288333,0.653,0,8,0.104,-6.582,0.176,73.884,4,0.588,r-n-b
+The Temptations,My Girl,0.568,0.556,163000,0.55,0,0,0.134,-6.106,0.0377,104.651,4,0.643,r-n-b
+Too $hort,So You Want to Be a Gangster,0.000186,0.687,244507,0.373,0.0117,2,0.325,-13.988,0.101,110.504,5,0.49,hip-hop
+RJD2,Going and Going. And Going. (Instrumental Version),0.026,0.66,258883,0.809,0.743,7,0.157,-10.034,0.0563,126.039,4,0.0996,hip-hop
+Dr. Dre,The Next Episode,0.0279,0.916,161507,0.906,0,3,0.0803,-2.494,0.195,95.3,4,0.29,hip-hop
+Future,Thought It Was a Drought,0.00761,0.861,265213,0.448,0.000408,2,0.0902,-8.256,0.111,125.022,4,0.0565,hip-hop
+Method Man,All I Need,0.0885,0.731,196000,0.488,3.66e-05,4,0.112,-11.133,0.265,91.914,4,0.167,hip-hop
+Stevie Wonder,Sir Duke,0.16,0.588,232760,0.568,0,6,0.0792,-9.766,0.0672,106.938,4,0.955,soul
+Musiq Soulchild,Halfcrazy - Album Version (Edited),0.428,0.488,254493,0.779,0,11,0.0511,-6.49,0.162,67.884,4,0.484,soul
+Sam Cooke,A Change Is Gonna Come,0.761,0.212,191133,0.424,0,10,0.336,-9.97,0.0332,170.983,3,0.507,soul
+Janet Jackson,Got 'Til It's Gone - Feat. Q-Tip and Joni Mitchell,0.0223,0.789,241760,0.413,0.000313,7,0.3,-7.518,0.244,89.911,4,0.526,soul
+Ella Fitzgerald,Dream A Little Dream Of Me,0.924,0.456,187467,0.236,0,9,0.184,-9.372,0.0862,79.058,4,0.363,soul
+Neil Landstrumm,The Coconut Kestrel,0.00552,0.64,185547,0.891,0.874,0,0.102,-4.293,0.0316,139.999,4,0.347,techno
+Mad Mike,Hi-Tech Dreams,0.011,0.77,408813,0.675,0.937,1,0.143,-7.324,0.0693,127.957,4,0.913,techno
+Detroit Grand Pubahs,Dead Presidents - Original Mix,1.5e-05,0.505,241360,0.612,0.881,1,0.0817,-7.397,0.0973,150.02,4,0.7,techno
+Andre Holland,Unabomber,0.0342,0.77,197440,0.973,0.92,1,0.0823,-7.501,0.0377,137.374,4,0.195,techno
+Dan Curtin,Mr. Bean Do an E - DJ Madskillz Remix,0.000649,0.841,401360,0.705,0.806,3,0.0887,-7.685,0.194,128.012,4,0.338,techno
+Cream,Sunshine Of Your Love,0.389,0.691,250400,0.592,3.29e-05,2,0.124,-8.089,0.0366,115.152,4,0.732,hard-rock
+Rush,Tom Sawyer,0.00257,0.433,274640,0.792,0.0136,9,0.0746,-10.685,0.0438,174.958,4,0.623,hard-rock
+Mountain,Mississippi Queen,0.0975,0.58,151293,0.624,0,9,0.0411,-8.346,0.0784,139.72,4,0.662,hard-rock
+Survivor,Eye of the Tiger,0.195,0.806,244080,0.599,0.000455,0,0.0837,-9.379,0.0323,109.016,4,0.584,hard-rock
+Sabaton,To Hell and Back,0.00318,0.536,206547,0.849,0.00197,0,0.104,-4.702,0.0616,127.002,4,0.297,hard-rock
+Keida,Ganja Tea,0.144,0.766,233053,0.661,0,8,0.26,-5.931,0.291,147.991,4,0.722,reggae
+Sheek Louch,Good Love,0.0556,0.814,198880,0.552,0,1,0.0635,-5.36,0.255,97.811,4,0.782,reggae
+Jah Cure,What Will It Take,0.254,0.674,224973,0.443,0,9,0.134,-7.083,0.0982,87.095,4,0.487,reggae
+Popcaan,Love Yuh Bad,0.0391,0.584,220617,0.689,0,11,0.234,-5.624,0.406,144.902,5,0.722,reggae
+"Stephen ""Ragga"" Marley","Rock Stone (feat. Capleton, Sizzla)",0.204,0.768,278049,0.822,0.000533,2,0.121,-4.353,0.269,82.031,4,0.544,reggae
+Ben Howard,The Fear,0.513,0.604,260360,0.575,0.0115,11,0.112,-9.578,0.0336,125.944,4,0.438,folk
+Pale Seas,Something Or Nothing,0.0366,0.317,219103,0.625,0.0196,7,0.396,-7.202,0.0302,134.056,3,0.176,folk
+The Belle Brigade,I Didn't Mean It,0.000646,0.458,212760,0.938,0,10,0.137,-4.473,0.0376,173.99,4,0.891,folk
+The Lumineers,Big Parade,0.417,0.814,327733,0.634,0.00364,4,0.14,-13.051,0.0498,121.98,4,0.662,folk
+Andrew Bird,Desperation Breeds ...,0.613,0.516,330080,0.482,0.428,0,0.267,-8.904,0.0447,153.619,3,0.333,folk
+Phoenix,Entertainment,0.00152,0.4,220240,0.729,0.0455,8,0.324,-3.943,0.0461,75.369,4,0.504,indie
+Radiohead,Fake Plastic Trees,0.167,0.454,290707,0.229,0.102,2,0.202,-12.592,0.0297,73.552,4,0.127,indie
+Broken Bells,The High Road,0.0682,0.61,232200,0.637,6.12e-06,0,0.284,-6.574,0.0238,79.955,4,0.572,indie
+alt-J,Something Good,0.714,0.682,217320,0.581,0.324,7,0.0802,-10.339,0.0295,108.981,4,0.525,indie
+EL VY,"Return To The Moon (Political Song for Didi Bloome to Sing, with Crescendo)",0.00996,0.699,253053,0.907,0.479,2,0.0809,-6.32,0.0393,124.989,4,0.82,indie
+blink-182,Another Girl Another Planet,0.0276,0.426,160821,0.935,1.54e-05,7,0.0741,-2.376,0.0493,175.951,4,0.747,punk-rock
+My Chemical Romance,Teenagers,0.0506,0.463,161920,0.857,0,4,0.184,-3.063,0.0632,111.647,4,0.839,punk-rock
+Good Charlotte,I Don't Wanna Be In Love (Dance Floor Anthem),0.0226,0.64,244000,0.884,0,6,0.187,-2.609,0.0428,124.968,4,0.56,punk-rock
+Paramore,Brick By Boring Brick,9.56e-05,0.436,253947,0.942,0.000438,9,0.209,-2.206,0.0496,164.975,4,0.488,punk-rock
+Panic! At The Disco,I Write Sins Not Tragedies,0.0938,0.567,187613,0.795,0,9,0.114,-4.985,0.134,170.06,4,0.596,punk-rock
+Thy Art Is Murder,Vile Creation,0.000346,0.259,212213,0.984,0.0125,9,0.194,-3.321,0.168,130.953,4,0.175,heavy-metal
+Deicide,Sacrificial Suicide - Reissue,0.000165,0.315,172027,0.993,0.00359,4,0.0714,-5.458,0.209,152.17,5,0.0373,heavy-metal
+In Flames,Pinball Map,3.8e-06,0.543,248307,0.96,0.842,1,0.122,-4.138,0.0888,114.06,4,0.547,heavy-metal
+Woods Of Ypres,Lightning & Snow,1.58e-05,0.464,280707,0.944,0.174,10,0.057,-5.211,0.0388,139.97,4,0.536,heavy-metal
+Black Sabbath,Children of the Grave,0.0762,0.319,317206,0.65,0.129,6,0.0962,-13.927,0.0375,149.886,4,0.375,heavy-metal
+The Velvet Underground,Venus In Furs,0.00181,0.327,312253,0.64,0.544,8,0.0816,-9.8,0.0354,72.378,4,0.591,psych-rock
+Dead Meadow,At the Edge of the Wood,0.88,0.519,216067,0.169,0.000278,6,0.121,-13.153,0.0354,93.163,3,0.293,psych-rock
+MGMT,Congratulations,0.439,0.761,235387,0.637,0.0082,7,0.102,-8.169,0.0268,125.115,4,0.669,psych-rock
+Survivor,Eye of the Tiger,0.132,0.817,245640,0.599,0.000311,0,0.0873,-9.249,0.0328,108.873,4,0.546,psych-rock
+The Doors,The Crystal Ship,0.797,0.313,152000,0.42,2.35e-06,10,0.126,-9.806,0.0303,178.711,4,0.341,psych-rock
