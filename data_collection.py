@@ -5,7 +5,7 @@ import time
 
 NUM_TRACKS = 100
 GENRES = ['alternative','blues','classical','country','electro','folk','french','hard-rock','heavy-metal','hip-hop','indie','jazz','pop','psych-rock','punk-rock','r-n-b','reggae','rock','soul','techno']
-COLUMNS = ['artist', 'track', 'acousticness', 'danceability', 'duration_ms', 'energy', 'instrumentalness', 'key', 'liveness', 'loudness', 'speechiness', 'tempo', 'time_signature', 'valence', 'genre']
+COLUMNS = ['artist', 'track', 'acousticness', 'danceability', 'duration_ms', 'energy', 'instrumentalness', 'key', 'liveness', 'loudness', 'mode', 'speechiness', 'tempo', 'time_signature', 'valence', 'genre']
 
 SPOTIPY_CLIENT_ID='09545564279049d6a48a476ee8a2163f'
 SPOTIPY_CLIENT_SECRET='5941931004de4fd6ba6daf7deb81be6b'
@@ -58,6 +58,7 @@ def buildTrack(unprocessedTrack, genre):
 	processedTrack['acousticness'] = features['acousticness']
 	processedTrack['instrumentalness'] = features['instrumentalness']
 	processedTrack['liveness'] = features['liveness']
+	processedTrack['mode'] = features['mode']
 	processedTrack['valence'] = features['valence']
 	processedTrack['tempo'] = features['tempo']
 	processedTrack['duration_ms'] = features['duration_ms']
