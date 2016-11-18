@@ -23,6 +23,19 @@ from sklearn.dummy import DummyClassifier
 ####### Plot Functions #######
 ##############################
 
+def cnf_mat_model(model, x_train, x_test, y_train, y_test):
+
+	GENRES = ['alternative','blues','classical','country','electro','folk','french','hard-rock','heavy-metal','hip-hop','indie','jazz','pop','psych-rock','punk-rock','r-n-b','reggae','rock','soul','techno']
+	
+	model_fitted = model.fit(x_train, y_train)
+	
+	y_pred = model_fitted.predict(x_test)
+
+	cnf_mat = confusion_matrix(y_test, y_pred)
+
+	plot_confusion_matrix(cnf_mat, classes=GENRES,
+                      title='Confusion matrix, without normalization')
+
 #SOURCE: http://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html#sphx-glr-auto-examples-model-selection-plot-confusion-matrix-py
 def plot_confusion_matrix(cm, classes,
                           normalize=False,
