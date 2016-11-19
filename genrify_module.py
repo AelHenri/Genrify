@@ -23,10 +23,12 @@ from sklearn.dummy import DummyClassifier
 ####### Plot Functions #######
 ##############################
 
-def cnf_mat_model(model, x_train, x_test, y_train, y_test):
+def cnf_mat_model(model, x, y):
 
 	GENRES = ['alternative','blues','classical','country','electro','folk','french','hard-rock','heavy-metal','hip-hop','indie','jazz','pop','psych-rock','punk-rock','r-n-b','reggae','rock','soul','techno']
 	
+	x_train, x_test, y_train, y_test = train_test_split(x, y, train_size=0.67, random_state=1)
+
 	model_fitted = model.fit(x_train, y_train)
 	
 	y_pred = model_fitted.predict(x_test)
